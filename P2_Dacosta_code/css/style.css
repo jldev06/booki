@@ -1,0 +1,1431 @@
+style.css
+/*.............................Desktop..................................Desktop..........................Desktop................ */
+
+#bloc_page {
+    width: auto;
+}
+
+
+/*google font*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: auto;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/*.....................header.................................header........................................... */
+
+.header {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.logo {
+    display: flex;
+    height: 35px;
+    padding: 0 10px;
+}
+
+#nav {
+    display: flex;
+    width: 25%;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+}
+
+nav li {
+    height: 100%;
+    width: 40%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    height: 100%;
+    padding-right: 5px;
+    width: 62px;
+}
+
+.nav-link-active {
+    display: flex;
+    text-decoration: none;
+    color: #0065FC;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-active:hover {
+    border-top: 1px #0065FC solid;
+}
+
+
+/*...............................main...........................................main................................ */
+
+main {
+    padding-left: 5px;
+    padding-right: 25px;
+    height: auto;
+    width: 100%;
+}
+
+
+/*............section1 .................................. Section1 : Formulaires................................ */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 96%;
+    margin-left: 3%;
+    margin-bottom: 10px;
+}
+
+
+/* .........................section1-Header.......................... */
+
+.section1-header {
+    display: flex;
+    line-height: 1px;
+    flex-direction: column;
+}
+
+.section1-header-title {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    white-space: normal;
+    flex-wrap: wrap;
+}
+
+.section1-header-subtitle {
+    display: flex;
+    color: rgba(85, 85, 85);
+    font-size: 14px;
+}
+
+
+/* .........................section1 Search.......................... */
+
+form {
+    height: 150px;
+    padding-top: 20px;
+}
+
+.search-bloc {
+    display: flex;
+    width: 33%;
+    margin: 0;
+}
+
+.fa-map-marker-alt {
+    border: black solid 1px;
+    padding: 12.5px 12.5px 12.5px 12.5px;
+    color: black;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px 0px 0px 10px;
+    border: transparent;
+    height: 40px;
+}
+
+#search {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid rgb(242, 242, 242);
+    background-color: transparent;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+#button {
+    display: flex;
+    width: 90px;
+    height: 40px;
+    background-color: #0065FC;
+    color: white;
+    font-size: 14px;
+    border-radius: 0px 10px 10px 0px;
+    border: solid 0.5px blue;
+}
+
+.searchicon {
+    display: none;
+}
+
+
+/* .........................section1 filtres.......................... */
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    align-items: center;
+}
+
+.filterbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.filtre-title {
+    display: flex;
+    font-size: 14px;
+    width: 40px;
+    height: 100%;
+    align-items: center;
+    padding-top: 0;
+}
+
+.filtre:hover {
+    background-color: #0065FC;
+    color: white;
+}
+
+.filtre {
+    display: flex;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 20px;
+    border-left: transparent;
+    width: auto;
+    height: 28px;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.filtre span {
+    display: flex;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.fa-money-bill-wave {
+    display: flex;
+    color: #0065FC;
+    border-radius: 30px 30px;
+    background-color: #DEEBFF;
+    font-size: 16px;
+    padding: 5%;
+}
+
+.fa-child {
+    display: flex;
+    color: #0065FC;
+    border-radius: 30px 30px;
+    background-color: #DEEBFF;
+    font-size: 16px;
+    width: 28px;
+    padding: 6%;
+}
+
+.fa-heart {
+    display: flex;
+    color: #0065FC;
+    border-radius: 30px 30px;
+    background-color: #DEEBFF;
+    font-size: 16px;
+    padding: 5%;
+}
+
+.fa-dog {
+    display: flex;
+    color: #0065FC;
+    border-radius: 30px 30px;
+    background-color: #DEEBFF;
+    font-size: 14px;
+    padding: 5%;
+}
+
+
+/* .........................section1 Info.......................... */
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.fa-info {
+    color: #0065FC;
+    font-size: small;
+    border: solid 2px rgb(242, 242, 242);
+    border-radius: 25px 25px;
+    padding: 5px 10px 5px 10px;
+}
+
+.info-text {
+    padding-left: 4px;
+    color: rgba( 85, 85, 85);
+    font-size: 14px;
+}
+
+
+/* ...............seection2...............................section2 hébergements....................................*/
+
+.section2 {
+    display: flex;
+    width: 96%;
+    height: 530px;
+    margin-left: 3%;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+
+/* ................section2a: Hébergements à Marseille.....................*/
+
+#section2a {
+    display: flex;
+    width: 70%;
+    height: 98%;
+    background-color: rgb(242, 242, 242);
+    padding-top: 1%;
+    border-radius: 10px 10px 10px 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#section2a-title {
+    display: flex;
+    font-size: 18px;
+    width: auto;
+    padding-left: 25px;
+}
+
+.section2a-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 79%;
+    justify-content: space-evenly;
+}
+
+.section2a-card {
+    display: flex;
+    height: 180px;
+    width: 29%;
+    line-height: 1px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgb(209, 209, 209);
+}
+
+.section2a-card-link {
+    text-decoration: none;
+    height: 100%;
+}
+
+.section2a-image-container {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.section2a-image {
+    display: flex;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.section2a-texte-container {
+    display: flex;
+    width: 92%;
+    height: 35%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h4 {
+    display: flex;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    font-size: 14px;
+    flex-wrap: wrap;
+    white-space: normal;
+    line-height: 16px;
+    width: 83%;
+}
+
+.night-price {
+    display: flex;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.euro {
+    font-weight: bold;
+}
+
+.stars {
+    font-size: 12px;
+}
+
+.fa-star {
+    color: blue;
+}
+
+.fa-star.gray {
+    color: gray;
+}
+
+.afficher-plus {
+    display: flex;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 25px;
+    margin-block-end: 0;
+    margin-block-start: 10px;
+}
+
+
+/* .............................Aside: Les plus populaires.....................*/
+
+aside {
+    display: flex;
+    width: 28%;
+    height: 98%;
+    background-color: rgb(242, 242, 242);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 2%;
+}
+
+.aside-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 11%;
+    font-size: 18px;
+    margin-block-start: 10px;
+}
+
+.fa-chart-line {
+    display: flex;
+}
+
+.aside-cards-container {
+    display: flex;
+    width: 100%;
+    height: 88%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.aside-card-link {
+    text-decoration: none;
+    width: 100%;
+    height: 29%;
+}
+
+.aside-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95%;
+    line-height: 1px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(209, 209, 209);
+}
+
+.aside-image-container {
+    display: flex;
+    width: 40%;
+    height: 98%;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.aside-image {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.aside-texte-container {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 10px;
+    flex-direction: column;
+    color: black;
+    justify-content: space-around;
+}
+
+
+/* .........................section3............................Section 3 Activités............................. */
+
+.section3 {
+    display: flex;
+    width: 96%;
+    height: 420px;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+#section3-title {
+    display: flex;
+    font-size: 18px;
+    height: 15%;
+    align-items: center;
+    margin: 0;
+}
+
+.section3-cards-container {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section3-card1 {
+    display: flex;
+    height: 100%;
+    width: 23%;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgb(209, 209, 209);
+}
+
+.section3-card1-link {
+    text-decoration: none;
+    height: 100%;
+}
+
+.section3-image1-container {
+    display: flex;
+    height: 85%;
+    width: 100%;
+}
+
+.section3-card1-image {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section3-card1-texte-container {
+    display: flex;
+    justify-content: left;
+    height: 15%;
+    padding-left: 15px;
+    padding-top: 18px;
+    font-size: 14px;
+    color: black;
+}
+
+.section3-card2-container {
+    display: flex;
+    height: 100%;
+    width: 23%;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.section3-card2a {
+    display: flex;
+    height: 45%;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgb(209, 209, 209);
+    margin-bottom: 25px;
+}
+
+.section3-card2a-link {
+    text-decoration: none;
+    height: 100%;
+}
+
+.section3-card2a-image-container {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section3-card2a-image {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section3-card2a-texte-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 30%;
+    padding-left: 15px;
+    color: black;
+}
+
+.section3-card2b {
+    display: flex;
+    flex-direction: column;
+    height: 48%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgb(209, 209, 209);
+}
+
+.section3-card2b-link {
+    text-decoration: none;
+    height: 100%;
+}
+
+.section3-card2b-image-container {
+    display: flex;
+    height: 68%;
+}
+
+.section3-card2b-image {
+    display: flex;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section3-card2b-texte-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+    height: 32%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+
+/* ............................Footer.........................................Footer........................................ */
+
+footer {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.footer-container {
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.footer-title {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+
+/* ................Portable...................................media queries responsive version portable........................................ */
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .header {
+        margin-bottom: 5px;
+        height: 200px;
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .logo {
+        height: 80px;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    #nav {
+        width: 100%;
+        width: 100%;
+        padding-right: 0;
+    }
+    .navigation {
+        width: 100%;
+        padding-right: 0;
+        justify-content: stretch;
+    }
+    nav ul {
+        width: 100%;
+    }
+    nav li {
+        width: 50%;
+    }
+    .nav a {
+        width: 100%;
+    }
+    .nav-link {
+        font-size: 20px;
+        width: 100%;
+        height: 60%;
+        padding-right: 0;
+        justify-content: center;
+        border-bottom: 2px solid rgb(242, 242, 242);
+    }
+    .nav-link-active {
+        font-size: 20px;
+        width: 100%;
+        height: 72px;
+        border-bottom: 3px solid #0065FC;
+    }
+    .nav-link-active:hover {
+        border-top: none;
+    }
+    main {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .section1 {
+        width: 96%;
+        height: 920px;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5px;
+        align-content: space-between;
+        padding-left: 4%;
+    }
+    .section1-header {
+        width: 96%;
+        white-space: normal;
+        align-items: flex-start;
+    }
+    .section1-header-title {
+        font-size: 28px;
+        line-height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+    .section1-header-subtitle {
+        flex-wrap: wrap;
+        white-space: normal;
+        flex-direction: row;
+        line-height: 20px;
+        font-size: 20px;
+        margin: 0;
+    }
+    .search-bloc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40%;
+        width: 93%;
+    }
+    #search {
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(242, 242, 242);
+        padding-left: 15px;
+    }
+    .fa-map-marker-alt {
+        font-size: 30px;
+        height: 52px;
+    }
+    #button {
+        display: none;
+    }
+    .searchicon {
+        display: flex;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+        border: solid 0.5px blue;
+        font-size: 20px;
+        height: 52px;
+        width: 77px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: -15px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        height: 290px;
+    }
+    .filterbox {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 60%;
+        line-height: 40px;
+    }
+    .filtre-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 70px;
+    }
+    .filtre {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        height: 44px;
+        font-size: 20px;
+    }
+    .fa-money-bill-wave {
+        font-size: 27px;
+        padding: 4%;
+    }
+    .fa-child {
+        font-size: 29px;
+        width: 45px;
+        padding-left: 12px;
+        padding-right: 0;
+    }
+    .fa-heart {
+        font-size: 28px;
+    }
+    .fa-dog {
+        font-size: 22px;
+    }
+    .info-text {
+        font-size: 20px;
+        height: 10%;
+        align-items: center;
+        margin-top: 0;
+        line-height: 20px;
+        width: 85%;
+    }
+    .section2 {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 3005px;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #section2a {
+        flex-direction: column;
+        height: 2250px;
+        width: 100%;
+        background-color: white;
+        padding-left: 4%;
+    }
+    #section2a-title {
+        font-size: 28px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+    .section2a-cards-container {
+        flex-direction: column;
+        height: 2800px;
+        width: 95%;
+    }
+    .section2a-card {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 30px;
+        box-shadow: 5px 10px 5px rgb(242, 242, 242);
+        border: rgb(242, 242, 242) 1px solid;
+    }
+    .section2a-image {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 99%;
+    }
+    .section2a-texte-container {
+        padding-top: 15px;
+        padding-left: 20px;
+        line-height: 10px;
+    }
+    .section2a-image-container {
+        height: 60%;
+        width: 100%;
+    }
+    .afficher-plus {
+        font-size: 20px;
+        padding-left: 0;
+        font-weight: normal;
+    }
+    aside {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 865px;
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        margin-left: 0;
+        padding-left: 4%;
+    }
+    .aside-title-container {
+        margin-top: 0px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 150px;
+    }
+    .aside-title {
+        font-size: 28px;
+    }
+    .fa-chart-line {
+        font-size: 30px;
+        padding-right: 7%;
+    }
+    .aside-cards-container {
+        height: 930px;
+        width: 95%;
+        padding-right: 0;
+    }
+    .aside-card-link {
+        padding-right: 0;
+        height: 30%;
+    }
+    .aside-card {
+        border-radius: 20px 20px 20px 20px;
+        height: 200px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .aside-texte-container {
+        padding-bottom: 10px;
+        padding-left: 10px;
+        width: 60%;
+        justify-content: space-around;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .night-price {
+        font-size: 18px;
+        width: 171px;
+    }
+    .stars {
+        font-size: 18px;
+    }
+    .aside-image-container {
+        width: 40%;
+    }
+    .aside-image {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .section3 {
+        height: 2500px;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        margin-left: 0;
+        padding-left: 4%;
+    }
+    #section3-title {
+        height: 3%;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    .section3-cards-container {
+        height: 98%;
+        width: 94%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .section3-card1 {
+        width: 100%;
+        height: 360px;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 5px 10px 5px rgb(242, 242, 242);
+    }
+    .section3-image1-container {
+        height: 85%;
+    }
+    .section3-card1-image {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 100%;
+    }
+    .section3-card1-texte-container {
+        height: 15%;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+    .section3-card2-container {
+        width: 100%;
+        height: 800px;
+        justify-content: space-evenly;
+    }
+    .section3-card2a {
+        width: 100%;
+        height: 360px;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 5px 10px 5px rgb(242, 242, 242);
+        margin-bottom: 40px;
+    }
+    .section3-card2a-image-container {
+        height: 85%;
+    }
+    .section3-card2a-image {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 100%;
+    }
+    .section3-card2a-texte-container {
+        padding-left: 20px;
+        height: 15%;
+    }
+    .section3-card2b {
+        width: 100%;
+        height: 360px;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 5px 10px 5px rgb(242, 242, 242);
+    }
+    .section3-card2b-image-container {
+        height: 85%;
+    }
+    .section3-card2b-image {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 100%;
+    }
+    .section3-card2b-texte-container {
+        padding-left: 20px;
+        height: 15%;
+    }
+    .footer {
+        flex-direction: column;
+        height: 650px;
+        width: 100%;
+    }
+    .footer-container {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .footer-title {
+        font-size: 25px;
+        margin-bottom: 20px;
+        height: 20%;
+        padding-left: 0;
+    }
+    .footer-list {
+        font-size: 15px;
+        margin-bottom: 0;
+        height: 70%;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+}
+
+
+/* ..................tablette.......................media queries responsive version tablette........................................*/
+
+@media screen and (min-width: 768px) and (max-width :992px) {
+    body {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    /* ..................header......................*/
+    .header {
+        height: 150px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .logo {
+        height: 50px;
+        padding-left: 20px;
+    }
+    #nav {
+        width: 100%;
+        padding-right: 0;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .nav-link {
+        font-size: 20px;
+        padding-right: 0;
+        border-bottom: #DEEBFF;
+    }
+    .nav-link-active {
+        font-size: 20px;
+        width: 100%;
+        border-bottom: #DEEBFF;
+    }
+    /* ..................main......................*/
+    main {
+        height: 82%;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .section1 {
+        height: 550px;
+        width: 100%;
+        padding-left: 2%;
+        padding-top: 20px;
+        margin-left: 0;
+    }
+    .section1-header {
+        height: 150px;
+    }
+    .section1-header-title {
+        font-size: 30px;
+        white-space: normal;
+        line-height: 30px;
+        width: 65%;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .section1-header-subtitle {
+        font-size: 20px;
+    }
+    form {
+        height: 60px;
+        padding-top: 0;
+    }
+    .fa-map-marker-alt {
+        font-size: 30px;
+        height: 50px
+    }
+    #search {
+        height: 50px;
+        font-size: 20px;
+        width: 200px;
+    }
+    #button {
+        height: 50px;
+        font-size: 20px;
+        width: 115px;
+    }
+    .filtres {
+        height: 280px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 30px;
+        justify-content: space-between;
+    }
+    .filtre-title {
+        width: 60px;
+        font-size: 20px;
+        height: 10%;
+    }
+    .filterbox {
+        width: 60%;
+        height: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .filtre {
+        width: 180px;
+        height: 38px;
+        font-size: 14px;
+        align-content: center;
+    }
+    .fa-money-bill-wave {
+        font-size: 22px;
+    }
+    .fa-child {
+        font-size: 17px;
+        width: 40px;
+        border-radius: 30px 30px;
+    }
+    .fa-heart {
+        font-size: 19px;
+    }
+    .fa-dog {
+        font-size: 18px;
+    }
+    .info-text {
+        font-size: 20px;
+    }
+    .section2 {
+        height: 1130px;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #section2a-title {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #section2a {
+        height: 730px;
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 1%;
+    }
+    .section2a-cards-container {
+        height: 75%;
+        width: 100%;
+    }
+    .section2a-card {
+        height: 240px;
+        width: 30%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 5px#0065FC;
+    }
+    .section2a-image-container {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 5px;
+    }
+    .section2a-image {
+        width: 98%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .section2a-texte-container {
+        font-size: 20px;
+        justify-content: space-around;
+        width: 100%;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .night-price {
+        font-size: 16px;
+    }
+    .stars {
+        font-size: 12px;
+    }
+    .afficher-plus {
+        font-size: 20px;
+    }
+    aside {
+        width: 100%;
+        height: 410px;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 0;
+    }
+    .aside-title-container {
+        height: 30%;
+    }
+    .aside-title {
+        font-size: 30px;
+    }
+    .fa-chart-line {
+        font-size: 20px;
+        padding-right: 40px;
+    }
+    .aside-cards-container {
+        width: 100%;
+        height: 450px;
+        justify-content: space-evenly;
+    }
+    .aside-card-link {
+        width: 33%;
+        height: 82%;
+    }
+    .aside-card {
+        flex-direction: column;
+        height: 240px;
+        width: 92%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 5px#0065FC;
+    }
+    .aside-image-container {
+        width: 98%;
+        height: 60%;
+        border-radius: 10px 1px 1px 10px;
+        padding-left: 5px;
+    }
+    .aside-image {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .aside-texte-container {
+        width: 100%;
+    }
+    .section3 {
+        height: 700px;
+        width: 100%;
+        padding-left: 3%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #section3-title {
+        height: 8%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .section3-cards-container {
+        height: 95%;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .section3-card1 {
+        justify-content: left;
+        height: 280px;
+        width: 30%;
+        box-shadow: 2px 2px 5px#0065FC;
+    }
+    .section3-image1-container {
+        height: 80%;
+    }
+    .section3-card1-texte-container {
+        height: 20%;
+        padding-top: 15px;
+    }
+    .section3-card2-container {
+        flex-direction: row;
+        width: 70%;
+        height: 310px;
+        justify-content: space-evenly;
+    }
+    .section3-card2a {
+        height: 280px;
+        width: 45%;
+        box-shadow: 2px 2px 5px#0065FC;
+    }
+    .section3-card2a-image-container {
+        height: 80%;
+    }
+    .section3-card2a-texte-container {
+        height: 20%;
+    }
+    .section3-card2b {
+        height: 280px;
+        width: 43%;
+        box-shadow: 2px 2px 5px#0065FC;
+    }
+    .section3-card2b-image-container {
+        height: 80%;
+    }
+    .section3-card2b-texte-container {
+        height: 20%;
+        padding-left: 20px;
+    }
+    .footer {
+        width: 100%;
+        height: 14%;
+        flex-direction: column;
+    }
+    .footer-container {
+        padding-left: 50px;
+        height: 30%;
+        width: 50%;
+    }
+    .footer-title {
+        font-size: 22px;
+    }
+    .footer-list {
+        font-size: 20px;
+    }
+}
